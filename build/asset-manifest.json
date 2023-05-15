@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/innopolis_final/static/css/main.51e29111.css",
+    "main.js": "/innopolis_final/static/js/main.33223b8e.js",
+    "static/js/787.a878762a.chunk.js": "/innopolis_final/static/js/787.a878762a.chunk.js",
+    "static/media/login__background.png": "/innopolis_final/static/media/login__background.3c2663373ad5414c76d7.png",
+    "static/media/description__background.png": "/innopolis_final/static/media/description__background.e4f1acdd56451cdd6b81.png",
+    "static/media/basketItem__remove-btn_hover.svg": "/innopolis_final/static/media/basketItem__remove-btn_hover.0234cfe7dc96443762fa.svg",
+    "static/media/backBtn_hover.svg": "/innopolis_final/static/media/backBtn_hover.0dadc924245b98d9bd2a.svg",
+    "static/media/headerBasket__icon.svg": "/innopolis_final/static/media/headerBasket__icon.1363fe210c482a130cdc77bd25f80046.svg",
+    "static/media/basketItem__remove-btn.svg": "/innopolis_final/static/media/basketItem__remove-btn.e13ce0a322c684501cd6.svg",
+    "static/media/backBtn.svg": "/innopolis_final/static/media/backBtn.b44e2b62c3a7e948f38a.svg",
+    "index.html": "/innopolis_final/index.html",
+    "static/media/loginForm__checkbox-checkmark.svg": "/innopolis_final/static/media/loginForm__checkbox-checkmark.1c7b86376aa734749a05.svg",
+    "main.51e29111.css.map": "/innopolis_final/static/css/main.51e29111.css.map",
+    "main.33223b8e.js.map": "/innopolis_final/static/js/main.33223b8e.js.map",
+    "787.a878762a.chunk.js.map": "/innopolis_final/static/js/787.a878762a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e29111.css",
+    "static/js/main.33223b8e.js"
+  ]
+}
