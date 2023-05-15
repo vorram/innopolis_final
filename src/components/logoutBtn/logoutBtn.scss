@@ -1,0 +1,15 @@
+.logoutBtn {
+  padding: 12px 77px;
+  border: 1px solid #D58C51;
+  background-color: transparent;
+  color: #D58C51;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+
+  &:hover {
+    color: #d5ae8e;
+    border-color: #d5ae8e;
+  }
+}

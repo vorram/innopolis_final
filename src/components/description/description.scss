@@ -1,0 +1,81 @@
+.description {
+  height: 100vh;
+  
+  &__background {
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background: center / cover url('images/description__background.png');
+    backdrop-filter: brightness(10%);
+  }
+
+  &__header {
+    padding: 50px 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__header-right {
+    display: flex;
+    gap: 22px;
+  }
+
+  &__container {
+    height: calc(100vh - 153px);
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__image {
+    width: 500px;
+    height: 500px;
+  }
+
+  &__content {
+    width: 528px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  &__name {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    color: #D58C51;
+  }
+
+  &__text {
+    margin-bottom: 34px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__price {
+    margin-right: 5px;
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+
+  &__weight {
+    margin-right: 70px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__addBtn {
+    width: 200px;
+    padding: 12px 0;
+    text-align: center;
+    background-color: #D58C51;
+    color: #131313;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    border: none; 
+    cursor: pointer;
+  }
+}

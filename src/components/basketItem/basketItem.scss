@@ -1,0 +1,71 @@
+.basketItem {
+  display: flex;
+  gap: 88px;
+
+  &__image {
+    width: 132px;
+    height: 132px;
+  }
+
+  &__container {
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__name {
+    width: 310px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+  }
+
+  &__qty-buttons {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  &__decrement-btn,
+  &__increment-btn {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: #D58C51;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  &__qty {
+    font-size: 24px;
+  }
+
+  &__price-container {
+    position: relative;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
+
+  &__price {
+    color: #D58C51;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  &__remove-btn {
+    width: 30px;
+    height: 30px;
+    background-image: url('./images/basketItem__remove-btn.svg');
+    background-color: transparent;
+    border: none;
+  }
+
+  &__remove-btn:hover {
+    background-image: url('./images/basketItem__remove-btn_hover.svg');
+  }
+}

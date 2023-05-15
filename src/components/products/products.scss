@@ -1,0 +1,62 @@
+.products {
+  min-height: 100vh;
+  background-color: #161516;
+
+  &__header {
+    padding: 48px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161516;
+  }
+
+  &__title {
+    font-size: 31px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  &__header-btns {
+    display: flex;
+    gap: 22px;
+  }
+
+  &__card-container {
+    padding: 20px 0;
+    height: calc(100vh - 149px);
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px 20px;
+  }
+
+  &__error {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fd4144;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+
+  &-track {
+    background: #161516;
+  }
+
+  &-thumb {
+    background: #2c2c2c;
+    border-radius: 10px;
+  }
+
+  &-thumb:hover {
+    background: #202020;
+  }
+}

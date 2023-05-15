@@ -1,0 +1,12 @@
+.backBtn {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  background-image: url('./images/backBtn.svg');
+
+  &:hover {
+    cursor: pointer;
+    background-image: url('./images/backBtn_hover.svg');
+  }
+}

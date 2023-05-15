@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 312px;
+  padding: 43px 21px 32px;
+  border: 1px solid #D58C51;
+  font-family: 'Montserrat', sans-serif;
+
+  &__image {
+    width: 270px;
+    height: 270px;
+  }
+
+  &__name {
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+
+  &__description {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+
+  &__bottom {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__price {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+
+  &__weight {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+
+  &__button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+
+  &:hover {
+    color: #D58C51;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    background-color: #D58C51;
+    border: none;
+  }
+}

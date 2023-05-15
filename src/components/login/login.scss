@@ -1,0 +1,188 @@
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: center / cover url('images/login__background.png');
+
+  &__bg-filter {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: brightness(60%);
+  }
+}
+
+.loginForm {
+  width: 460px;
+  padding: 36px 20px;
+  position: relative;
+  z-index: 2;
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  color: #161516;
+  text-align: center;
+
+  &__switch-btn {
+    position: absolute;
+    top: 7px;
+    right: 19px;
+    font-family: 'Montserrat', sans-serif;
+    color: #D58C51;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 300;
+    text-decoration: underline;
+    background: none;
+    border: none;
+  }
+
+  &__switch-btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__title { 
+    margin-bottom: 36px;
+    font-size: 31px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__login-input,
+  &__password-input,
+  &__repeatPassword-input {
+    width: 100%;
+    padding: 10px 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #161516;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #D58C51;
+    border-radius: 61px;
+  }
+
+  &__login-input:focus,
+  &__password-input:focus,
+  &__repeatPassword-input:focus {
+    outline: 1px solid #D58C51;
+  }
+
+  &__login-input::placeholder,
+  &__password-input::placeholder,
+  &__repeatPassword-input::placeholder {
+    color: #161516;
+  }
+
+  &__password-input,
+  &__repeatPassword-input {
+    margin-top: 15px;
+  }
+
+  &__login-error,
+  &__password-error,
+  &__repeatPassword-error {
+    position: absolute;
+    margin-top: 3px;
+    left: 38px;
+    text-align: start;
+    color: #FF0B0B;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  &__userData-error {
+    min-height: 10px;
+    margin-top: 8px;
+    color: #FF0B0B;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  &__checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+    &-container {
+      height: 18px;
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+      cursor: pointer;
+      text-align: start;
+      padding-left: 27px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;    
+    }
+
+    &-text {
+      font-weight: 300;
+      font-size: 11px;
+      line-height: 13px;
+      color: #301411;    
+    }
+
+    &-checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 18px;
+      width: 18px;
+      border: 1px solid #D58C51;
+      border-radius: 50%;    
+    }
+
+    &-container:hover input ~ &-checkmark {
+      background-color: #efefef;
+    }
+
+    &-checkmark::after {
+      content: "";
+      position: absolute;
+      display: none;    
+    }
+
+    &-container input:checked ~ &-checkmark::after {
+      display: block;
+    }
+
+    &-container &-checkmark::after {
+      left: 3px;
+      top: 3px;
+      width: 10px;
+      height: 10px;
+      background: center / cover url('./images/loginForm__checkbox-checkmark.svg');  
+    }
+  }
+
+  &__login-btn,
+  &__register-btn {
+    width: 200px;
+    margin-top: 12px;
+    padding: 12px 0;
+    background-color: #D58C51;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #131313;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+  }
+
+  &__login-btn:hover,
+  &__register-btn:hover {
+    background-color: #d29d71;
+  }
+}
