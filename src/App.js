@@ -18,7 +18,7 @@ function App() {
   const currentUser = useSelector((state => state.currentUser.name));
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Routes>
           <Route path="/" element={
