@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/innopolis_final/static/css/main.51e29111.css",
-    "main.js": "/innopolis_final/static/js/main.33223b8e.js",
+    "main.js": "/innopolis_final/static/js/main.4c5e3126.js",
     "static/js/787.a878762a.chunk.js": "/innopolis_final/static/js/787.a878762a.chunk.js",
     "static/media/login__background.png": "/innopolis_final/static/media/login__background.3c2663373ad5414c76d7.png",
     "static/media/description__background.png": "/innopolis_final/static/media/description__background.e4f1acdd56451cdd6b81.png",
@@ -13,11 +13,11 @@
     "index.html": "/innopolis_final/index.html",
     "static/media/loginForm__checkbox-checkmark.svg": "/innopolis_final/static/media/loginForm__checkbox-checkmark.1c7b86376aa734749a05.svg",
     "main.51e29111.css.map": "/innopolis_final/static/css/main.51e29111.css.map",
-    "main.33223b8e.js.map": "/innopolis_final/static/js/main.33223b8e.js.map",
+    "main.4c5e3126.js.map": "/innopolis_final/static/js/main.4c5e3126.js.map",
     "787.a878762a.chunk.js.map": "/innopolis_final/static/js/787.a878762a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51e29111.css",
-    "static/js/main.33223b8e.js"
+    "static/js/main.4c5e3126.js"
   ]
 }
