@@ -22,7 +22,7 @@ export default function Products() {
         {!productsData.length
           ? <div className="products__error">Нет данных</div>
           : productsData.map(({ id, name, desc, img, price, weight }) =>
-            <Card id ={id} key={id} name={name} desc={desc} img={process.env.PUBLIC_URL + img} price={price} weight={weight} />)
+            <Card id ={id} key={id} name={name} desc={desc} img={img} price={price} weight={weight} />)
         }
       </div>
     </div>

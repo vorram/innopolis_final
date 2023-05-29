@@ -34,7 +34,7 @@ export default function Card({ id, img, name, desc, price, weight }) {
   return (
     <div className="card" onClick={(e) => openDescription(e, id)}>
       <div className="card__top">
-        <img src={img} alt="" className="card__image" />
+        <img src={process.env.PUBLIC_URL + img} alt="" className="card__image" />
         <div className="card__name">{name}</div>
         <div className="card__description">{desc}</div>
       </div>
