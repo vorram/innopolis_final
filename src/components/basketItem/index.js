@@ -7,7 +7,7 @@ export default function BasketItem({img, name, price, qty, id, removeItem}) {
 
   return (
     <div className="basketItem">
-      <img src={img} alt="" className="basketItem__image" />
+      <img src={process.env.PUBLIC_URL + img} alt="" className="basketItem__image" />
       <div className="basketItem__container">
         <div className="basketItem__name">{name}</div>
         <div className="basketItem__qty-buttons">
