@@ -18,3 +18,22 @@
     height: 50px;
   }
 }
+
+@media (max-width: 1279px) {
+  .headerBasket {
+    flex-direction: row-reverse;
+    gap: 10px;
+
+    &__text {
+      text-align: start;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .headerBasket {
+    &__text {
+      font-size: 14px;
+    }
+  }
+}

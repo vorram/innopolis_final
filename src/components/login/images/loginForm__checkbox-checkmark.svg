@@ -1,3 +1,47 @@
-<svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5.36133 13L0.755859 8.39453L2.52246 6.62793L5.36133 9.45801L14.3613 0.493164L16.1279 2.2334L5.36133 13Z" fill="#787878"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="10"
+   height="10"
+   viewBox="0 0 10 10"
+   fill="none"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="loginForm__checkbox-checkmark.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="79"
+     inkscape:cx="3.4873418"
+     inkscape:cy="4.4873418"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1">
+    <circle
+       style="fill:#d58c51;stroke:#d58c51;stroke-width:0.76923;fill-opacity:1;stroke-opacity:1"
+       id="path528"
+       cx="5"
+       cy="5"
+       r="4.6153851" />
+  </g>
 </svg>

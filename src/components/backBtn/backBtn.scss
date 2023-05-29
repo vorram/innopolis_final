@@ -10,3 +10,9 @@
     background-image: url('./images/backBtn_hover.svg');
   }
 }
+
+@media (max-width: 1279px) {
+  .backBtn {
+    display: none;
+  }
+}

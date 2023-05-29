@@ -30,6 +30,7 @@
     margin-top: 35px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__price {
@@ -65,5 +66,27 @@
   &__button:hover {
     background-color: #D58C51;
     border: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    &__bottom {
+      font-size: 22px;
+    }
+
+    &__price {
+      font-size: 28px;
+    }
+  
+    &__weight {
+      font-size: 24px;
+    }
+
+    &__button {
+      width: 50px;
+      height: 50px;
+      font-size: 36px;
+    }
   }
 }

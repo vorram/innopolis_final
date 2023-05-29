@@ -60,3 +60,36 @@
     background: #202020;
   }
 }
+
+@media (max-width: 800px) {
+  .products {
+    &__header {
+      padding: 20px 30px;
+      flex-direction: row-reverse;
+    }
+
+    &__title {
+      display: none;
+    }
+
+    &__header-btns {
+      width: 100%;
+      gap: 0;
+      justify-content: space-between;
+    }
+
+    &__card-container {
+      height: calc(100vh - 93px);
+      display: grid;
+      grid-template-columns: 312px 312px;
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  .products {
+    &__card-container {
+      grid-template-columns: 312px;
+    }
+  }
+}

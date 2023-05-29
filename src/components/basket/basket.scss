@@ -18,20 +18,25 @@
     align-items: center;
   }
 
-  &__title {
+  &__title,
+  &__short-title {
     font-size: 31px;
     line-height: 38px;
     font-weight: 700;
     text-transform: uppercase;
   }
 
+  &__short-title {
+    display: none;
+  }
+
   &__item-container {
-    width: 860px;
-    height: calc(100vh - 38px - 46px - 53px - 96px);
-    margin: 0 auto;
+    width: 100%;
+    height: calc(100vh - 135px - 97px);
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
     overflow: auto;
   }
@@ -131,5 +136,91 @@
     line-height: 17px;
     border: none; 
     cursor: pointer;
+  }
+}
+
+@media (max-width: 1060px) {
+  .basket {
+    &__title {
+      display: none;
+    }
+
+    &__short-title {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .basket {
+    &__header {
+      padding: 20px 30px;
+    }
+
+    &__item-container {
+      height: calc(100vh - 78px - 82px);
+      padding-bottom: 0;
+    }
+
+    &__footer {
+      padding: 20px;
+    }
+  
+    &__footer-container {
+      width: 100%;
+      min-height: 0;
+    }
+  
+    &__footer-title {
+      font-size: 21px;
+      line-height: 26px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  
+    &__sum {
+      color: #D58C51;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+  
+    &__checkout-btn {
+      padding: 12px 40px;
+      background-color: #D58C51;
+      color: #131313;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      border: none; 
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .basket {
+    &__item-container {
+      height: calc(100vh - 78px - 93px);
+    }
+
+    &__footer-text {
+      display: block;
+      text-align: center;
+    }
+
+    &__footer-title {
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    &__checkout-btn {
+      padding: 17px 10px;
+    }
+  }
+
+  .orderWindow {
+    width: 100%;
   }
 }
