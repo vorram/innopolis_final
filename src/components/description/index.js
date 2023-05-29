@@ -43,7 +43,7 @@ export default function Description() {
           </div>
         </div>
         <div className="description__container">
-          <img src={img} alt="" className="description__image" />
+          <img src={process.env.PUBLIC_URL + img} alt="" className="description__image" />
           <div className="description__content">
             <div className="description__name">{name}</div>
             <div className="description__text">{longDesc}</div>

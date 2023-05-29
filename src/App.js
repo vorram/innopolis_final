@@ -1,5 +1,5 @@
 import "./reset.css";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import ProductsPage from "./Pages/ProductsPage";
 import BasketPage from "./Pages/BasketPage";
@@ -18,7 +18,7 @@ function App() {
   const currentUser = useSelector((state => state.currentUser.name));
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="App">
         <Routes>
           <Route path="/" element={
@@ -43,7 +43,7 @@ function App() {
           <Route path="/reg" element={<LoginPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
